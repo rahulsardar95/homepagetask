@@ -1,0 +1,262 @@
+body{
+    font-family:"Poppins";
+}
+.menu-item-btn {
+    background: hsl(204, 100%, 20%);
+    transition: 200ms ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bttn{
+    background: hsl(204, 100%, 20%);
+    transition: 200ms ease-in-out;
+    padding: 1rem 2rem;
+    margin: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.navbar{
+    position: fixed;
+    padding: 15px 0 0px 0;
+    transition: 340ms ease-in-out;
+    z-index: 3;
+    transition: 340ms ease-in-out;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+
+ .nav-link:hover{
+    color: #03c2cb ;
+}
+
+.btn-link
+{
+    color: #03c2cb;
+}
+
+.hero
+{
+    width: 100%;
+    top: 80px;
+    height: auto;
+    position: absolute;
+    background-image: linear-gradient( hsl(184deg 91% 79%), hsl(204deg 100% 54%));
+}
+
+.aboutus{
+    position: relative;
+    top: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.huge_text {
+    padding: 50px;
+    padding-bottom: 0px;
+    font-size: clamp(2rem, 5vw, 5rem);
+    color: black
+}
+.huge_text1{
+    padding-top: 0px;
+    padding-left: 50px;
+    font-size: clamp(2rem, 5vw, 5rem);
+    color: black ;
+
+}
+h1
+{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.services{
+    position: absolute;
+    top:1000px;
+    text-align: center;
+    width: 100%;
+}
+
+.services1{
+    position: absolute;
+    top:1700px;
+    text-align: center;
+    width: 100%;
+}
+figcaption{
+    position: absolute;
+    top: 20%; 
+    left: 30%;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    /* -webkit-animation: rotation 4s infinite linear; */
+    opacity: .9;
+}
+
+.Client
+{
+    position: absolute;
+    width: 100%;
+    top:2300px;
+    text-align: center;
+}
+
+.client_text{
+    width: 180vh;
+    padding-left:45vh;
+    justify-items: center;
+}
+.img{
+    vertical-align: middle;
+    padding: 10px;  
+}
+.client-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 3fr));
+    place-items: center;
+    align-items: stretch;
+}
+
+.Testimonials{
+    position: relative;
+    top:2500px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}   
+
+
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    top: 2600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
